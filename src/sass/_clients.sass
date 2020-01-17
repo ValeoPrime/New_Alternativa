@@ -1,0 +1,42 @@
+@media screen and ( min-width: 320px )
+    .clients
+        min-height: 495px
+        padding: 94px 54px 0 54px
+        background: url('../img/bg/cases__bg-mob.png') center center/cover repeat-y #171718
+        color: #ffffff
+        &__title
+            font-family: Montserrat
+            font-size: 21px
+            font-weight: 400
+            text-align: center
+        &__logo
+            img
+                display: none
+                width: 211px
+                height: 210px
+                border-radius: 100%
+                max-width: 100%
+                margin: 0 auto
+                &:first-child
+                    display: block
+        &__slider__arrow
+            display: flex
+            justify-content: space-around
+            margin-top: 55px
+        &__slider__arrow-left, .clients__slider__arrow-right
+            width: 51px
+            height: 51px
+            border: 3px solid #ef8b54
+            border-radius: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+
+@media screen and ( min-width: 767px )
+    .clients__logo
+        img
+            width: 250px
+            height: 250px
+    .clients
+        padding-bottom: 30px
+

@@ -1,0 +1,123 @@
+@media screen and ( min-width: 320px )
+    .consultation
+        min-height: 985px
+        padding: 120px 17px 85px 17px
+        background: url('../img/bg/consultation__bg-mob.png') center center/cover repeat-y #171718
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        color: #ffffff
+        &__title
+            color: #ef8b54
+            font-family: Montserrat
+            font-size: 22px
+            font-weight: 700
+        &__more_info
+            border: 2px solid #ef8b54
+            padding: 20px 0 20px 25px
+            p
+                font-family: Montserrat
+                font-size: 13px
+                font-weight: 300
+                position: relative
+                &:first-child
+                    font-size: 18px
+                    font-weight: 500
+                &::before
+                    content: ''
+                    width: 10px
+                    height: 10px
+                    background: url('../img/icons/plus__icon.png') center center/cover no-repeat
+                    position: absolute
+                    top: 50%
+                    left: -20px
+                    transform: translateY(-50%)
+        &__descr
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 700
+            margin-top: 30px
+        &__form
+            margin-top: 57px
+            padding: 15px 10px
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1)
+            border-radius: 5px
+            background-color: rgba(255, 255, 255, 0.1)
+            min-height: 385px
+            input
+                width: 100%
+                height: 45px
+                display: block
+                border: 1px solid #d0d0d0
+                background-color: #f6f6f6
+                margin: 0 auto 15px auto 
+                padding: 15px 13px
+                color: #595959
+                font-family: Montserrat
+                font-size: 14px
+                font-weight: 400
+
+            .consultation__form__checkbox
+                width: 32px
+                height: 33px
+                border-radius: 2px
+                border: 1px solid #d0d0d0
+                margin-right: 14px
+                
+            label
+                display: flex
+                justify-content: space-between
+                div
+                    font-family: Montserrat
+                    font-size: 10px
+                    font-weight: 400
+                    padding-right: 10px
+            .consultation__form__button
+                display: block
+                max-width: 300px
+                height: 45px
+                box-shadow: 0 4px 4px rgba(222, 155, 85, 0.3)
+                background-image: linear-gradient(10deg, #de9b55 0%, #ee5432 100%)
+                color: #ffffff
+                font-family: Montserrat
+                font-size: 14px
+                font-weight: 600
+                border: none
+                margin: 14px auto 0 auto  
+                padding-left: 90px
+                padding-right: 90px
+
+@media screen and ( min-width: 425px )
+    .consultation__title
+        font-size: 24px
+    .consultation__more_info
+        p
+            font-size: 15px
+            &:first-child
+                font-size: 20px
+    .consultation__descr
+        font-size: 17px
+
+@media screen and ( min-width: 767px )
+    .consultation
+        padding: 60px 17px 85px 17px
+        &__more_info
+            margin-top: 20px
+        &__descr
+            font-size: 22px
+            text-align: center
+            
+        &__form
+            label
+                padding-right: 50%
+
+
+
+
+
+
+        
+        
+
+            
+            

@@ -1,0 +1,114 @@
+@media screen and ( min-width: 320px )
+    .payment
+        min-height: 1000px
+        background: url('../img/bg/payment__mob__bg.png') center center/cover no-repeat #171718
+        padding: 0 20px
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        color: #ffffff
+        &__logos
+            width: 200px
+            height: 200px
+            box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2)
+            background-color: #ffffff
+            border-radius: 100%
+            margin: 89px auto 0 auto
+            padding: 30px 0
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: center
+            order: 0
+            .payment__logo
+                width: 120px
+        &__list, .payment__logo-full
+            display: none
+        &__title
+            order: 1
+            font-family: Montserrat
+            font-size: 16px
+            font-weight: 600
+            text-align: center
+            margin-top: 30px
+        &__descr
+            order: 1
+            font-family: Montserrat
+            font-size: 12px
+            font-weight: 400
+            margin-top: 30px
+            text-align: center
+        &__divider
+            order: 1
+            width: 200px
+            height: 1px
+            border: 1px solid rgba(255, 255, 255, 0.1)
+            margin: 40px auto
+        &__serv
+            order: 1
+            img
+                line-height: 1
+                display: block
+                margin: 0 auto
+            &__title
+                text-align: center
+                margin-top: 30px
+                font-family: Montserrat
+                font-size: 16px
+                font-weight: 600
+            &__descr
+                font-family: Montserrat
+                font-size: 12px
+                font-weight: 400
+                text-align: center
+                margin-top: 20px
+        &__integration
+            order: 1
+            &__logo
+                width: 200px
+                height: 200px
+                box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2)
+                margin: 0 auto
+                border: 8px solid #1d1d1d
+                border-radius: 100%
+                background-color: #e9d83f
+                display: flex
+                align-items: center
+                justify-content: center
+            &__title
+                font-family: Montserrat
+                font-size: 16px
+                font-weight: 600
+                text-align: center
+                margin-top: 30px
+            &__descr
+                font-family: Montserrat
+                font-size: 12px
+                font-weight: 400
+                text-align: center
+                margin-top: 20px
+
+@media screen and ( min-width: 425px )
+    .payment__title, .payment__serv__title, .payment__integration__title
+        font-size: 21px
+    .payment__descr, .payment__serv__descr, .payment__integration__descr
+        font-size: 15px
+    
+@media screen and ( min-width: 767px )
+    .payment__divider, .payment__serv, .payment__integration
+        display: none
+    
+    .payment
+        min-height: 600px
+        background: url('../img/bg/web_pay_bg.jpg') center center/cover no-repeat 
+        &__logos
+            order: 1
+          
+        
+        
+
+
+
+
+            
+                

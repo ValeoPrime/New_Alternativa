@@ -1,0 +1,135 @@
+@media screen and ( min-width: 320px )
+    .cases
+        min-height: 1572px
+        background: url('../img/bg/cases__bg-mob.png') center center/cover repeat-y #171718
+        padding: 120px 20px 0 20px
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        color: #ffffff
+        &__title_mob
+            font-family: Montserrat
+            font-size: 21px
+            font-weight: 400
+        &__items
+            margin-top: 30px
+            &__divider
+                width: 281px
+                height: 7px
+                box-shadow: 0 2px 3px rgba(222, 155, 85, 0.4)
+                border-radius: 6px
+                background-color: #de9b55
+                margin: 10px auto 0 auto
+        &__item
+            padding: 17px 17px 15px 17px
+            border-radius: 4px
+            background-color: rgba(20, 20, 20, 0.6)
+            margin-top: 40px
+            &:first-child
+                margin-top: 0
+            img
+                max-width: 100%
+                border-radius: 3px
+                display: block
+                margin: 0 auto
+            &__subtitle
+                margin-top: 10px
+                font-size: 22px
+                font-weight: 500
+            &__descr
+                opacity: 0.8
+                font-size: 15px
+                font-weight: 300
+        &__consultation
+            padding: 34px 22px
+            background: url('../img/bg/request__bg-mob.jpg') center center/cover no-repeat
+            border-radius: 5px
+            &__descr
+                color: #ffffff
+                font-family: Montserrat
+                font-size: 11px
+                font-weight: 700
+                margin-left: 57px
+                position: relative
+                &::before
+                    content: ''
+                    width: 43px
+                    height: 44px
+                    background: url('../img/icons/const__descr_icon-mob.png') center center/cover no-repeat
+                    position: absolute
+                    left: -62px 
+                    top: 5px
+            &__button
+                width: 234px
+                height: 45px
+                border-radius: 5px
+                border: 3px solid #ffffff
+                background: transparent
+                color: #ffffff
+                font-family: Montserrat
+                font-size: 13px
+                font-weight: 700
+                display: block
+                margin: 31px auto 0 auto
+        &__title
+            display: none
+        hr
+            width: 200px
+            height: 1px
+            border: 1px solid rgba(255, 255, 255, 0.1)
+            margin: 40px auto 5px auto
+
+@media screen and ( min-width: 425px )
+    .cases__title_mob
+        text-align: center
+    .cases__item__subtitle
+        font-size: 24px
+    .cases__item__descr, .cases__consultation__button
+        font-size: 18px
+    .cases__consultation__descr
+        font-size: 16px
+
+@media screen and ( min-width: 767px )
+    .cases__title_mob
+        display: none
+    .cases__title
+        display: block
+        text-align: center
+        font-family: Montserrat
+        font-size: 42px
+        font-weight: 400
+        text-transform: uppercase
+    .cases__items
+        display: flex
+        flex-wrap: wrap
+        flex-basis: 50%
+        justify-content: space-between
+    .cases__item:first-child
+        margin-top: 40px
+    .cases__consultation
+        display: flex
+        background: none
+        background-color: rgba(80, 56, 111, .2)
+        margin: 50px auto
+        align-items: center
+        &__descr
+            margin-left: 0
+            margin-right: 20px
+        .cases__consultation__descr:before
+            display: none   
+        &__button
+            margin: 0 auto
+            width: 240px
+            height: 65px
+            border: none
+            box-shadow: 0 5px 10px rgba(94, 56, 158, 0.35)
+            background-color: #774cba
+            font-family: Montserrat
+            font-size: 18px
+            font-weight: 400
+
+
+    
+
+
+

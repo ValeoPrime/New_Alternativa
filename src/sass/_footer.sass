@@ -1,0 +1,63 @@
+@media screen and ( min-width: 320px )
+    .footer
+        min-height: 610px
+        background-color: #2e2e2e
+        color: #ffffff
+        padding: 50px 40px
+        &__logo
+            display: block
+            margin: 0 auto
+            width: 125px
+            height: 65px
+        &__contacts
+            margin-top: 50px
+            opacity: 0.5
+            font-family: Montserrat
+            font-size: 18px
+            font-weight: 600
+            text-align: center
+            
+            &__item
+                font-size: 16px
+                font-weight: 300
+                margin-top: 14px
+        &__social
+            margin-top: 30px
+            opacity: 0.5
+            font-family: Montserrat
+            font-size: 18px
+            font-weight: 600
+            text-align: center
+            &__item
+                font-size: 16px
+                font-weight: 300
+                margin-top: 14px
+        &__map
+            display: flex
+            justify-content: space-around
+            align-items: center
+            margin-top: 40px
+            
+            &__descr
+                margin-right: 70px
+                color: rgba(255, 255, 255, 0.5)
+                font-family: Montserrat
+                font-size: 16px
+                font-weight: 300
+                position: relative
+                &::after
+                    content: ''
+                    width: 20px
+                    height: 50px
+                    position: absolute
+                    top: 0
+                    right: -40px
+                    background: url('../img/icons/map__arrow__icon.png') center center/cover no-repeat
+
+            &__img
+                width: 80px
+                height: 80px
+
+@media screen and ( min-width: 767px )
+    .footer__contacts, .footer__social
+       font-size: 22px
